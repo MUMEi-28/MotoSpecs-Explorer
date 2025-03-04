@@ -1,6 +1,6 @@
 import React from 'react'
 
-const BMW = () =>
+export const BMW = () =>
 {
     return (
         <div>BMW</div>

@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import AprilliaModelNavigation from '../components/AprilliaModelNavigation.jsx';
 
 export const Aprillia = () =>
 {
+
     return (
-        <div>Aprillia</div>
-    )
+        <div>
+            <AprilliaModelNavigation />
+        </div>
+    );
 }
