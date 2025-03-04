@@ -25,6 +25,11 @@ const App = () =>
                 <Route path='/BMW' element={<BMW />}></Route>
                 <Route path='/Aprillia' element={<Aprillia />}></Route>
             </Routes>
+
+            <footer className='overflow-hidden items-center flex-col p-3 justify-center flex bg-purple-800 h-[5vh] text-white'>
+                <p>copyright {new Date().getFullYear()} by MJ.</p>
+                <a href="https://github.com/MUMEi-28/MotoSpecs-Explorer" target='blank' className='underline'>Github Repository</a>
+            </footer>
         </>
     )
 }
