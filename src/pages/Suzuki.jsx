@@ -1,8 +1,9 @@
 import React from 'react'
+import { SuzukiModelNavigation } from '../components/SuzukiModelNavigation'
 
 export const Suzuki = () =>
 {
     return (
-        <div>Suzuki</div>
+        <SuzukiModelNavigation />
     )
 }

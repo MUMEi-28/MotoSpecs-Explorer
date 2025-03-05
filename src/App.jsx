@@ -18,6 +18,11 @@ import { YamahaR3 } from './pages/Yamaha/yamahaR3.jsx';
 import { YamahaR6 } from './pages/Yamaha/yamahaR6.jsx';
 import { YamahaR1M } from './pages/Yamaha/yamahaR1M.jsx';
 
+import { Suzuki150 } from './pages/Suzuki/suzuki150.jsx';
+import { Suzuki250 } from './pages/Suzuki/suzuki250.jsx';
+import { Suzuki600 } from './pages/Suzuki/suzuki600.jsx';
+import { Suzuki1000 } from './pages/Suzuki/suzuki1000.jsx';
+
 const App = () =>
 {
     return (
@@ -48,6 +53,12 @@ const App = () =>
                     <Route path='/Yamaha/2' element={<YamahaR3 />} ></Route>
                     <Route path='/Yamaha/3' element={<YamahaR6 />} ></Route>
                     <Route path='/Yamaha/4' element={<YamahaR1M />} ></Route>
+                </Routes>
+                <Routes>
+                    <Route path='/Suzuki/1' element={<Suzuki150 />} ></Route>
+                    <Route path='/Suzuki/2' element={<Suzuki250 />} ></Route>
+                    <Route path='/Suzuki/3' element={<Suzuki600 />} ></Route>
+                    <Route path='/Suzuki/4' element={<Suzuki1000 />} ></Route>
                 </Routes>
             </div>
             <footer className='flex items-center justify-center bg-purple-800 h-[5vh] text-white'>
