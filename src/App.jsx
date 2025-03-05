@@ -13,6 +13,11 @@ import { ApriliaRS457 } from './pages/Aprillia/ApriliaRS457.jsx';
 import { ApriliaTuono660 } from './pages/Aprillia/ApriliaTuono660.jsx';
 import { ApriliaRSV41100 } from './pages/Aprillia/ApriliaRSV41100.jsx';
 
+import { YamahaR15 } from './pages/Yamaha/yamahaR15.jsx';
+import { YamahaR3 } from './pages/Yamaha/yamahaR3.jsx';
+import { YamahaR6 } from './pages/Yamaha/yamahaR6.jsx';
+import { YamahaR1M } from './pages/Yamaha/yamahaR1M.jsx';
+
 const App = () =>
 {
     return (
@@ -35,6 +40,14 @@ const App = () =>
                     <Route path='/Aprillia/2' element={<ApriliaRS457 />}></Route>
                     <Route path='/Aprillia/3' element={<ApriliaTuono660 />}></Route>
                     <Route path='/Aprillia/4' element={<ApriliaRSV41100 />}></Route>
+                </Routes>
+
+
+                <Routes>
+                    <Route path='/Yamaha/1' element={<YamahaR15 />} ></Route>
+                    <Route path='/Yamaha/2' element={<YamahaR3 />} ></Route>
+                    <Route path='/Yamaha/3' element={<YamahaR6 />} ></Route>
+                    <Route path='/Yamaha/4' element={<YamahaR1M />} ></Route>
                 </Routes>
             </div>
             <footer className='flex items-center justify-center bg-purple-800 h-[5vh] text-white'>
