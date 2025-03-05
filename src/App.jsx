@@ -23,6 +23,10 @@ import { Suzuki250 } from './pages/Suzuki/suzuki250.jsx';
 import { Suzuki600 } from './pages/Suzuki/suzuki600.jsx';
 import { Suzuki1000 } from './pages/Suzuki/suzuki1000.jsx';
 
+import { F900R } from './pages/BMW/F900R.jsx';
+import { G310R } from './pages/BMW/G310R.jsx';
+import { S1000R } from './pages/BMW/S1000R.jsx';
+
 const App = () =>
 {
     return (
@@ -54,13 +58,20 @@ const App = () =>
                     <Route path='/Yamaha/3' element={<YamahaR6 />} ></Route>
                     <Route path='/Yamaha/4' element={<YamahaR1M />} ></Route>
                 </Routes>
+
                 <Routes>
                     <Route path='/Suzuki/1' element={<Suzuki150 />} ></Route>
                     <Route path='/Suzuki/2' element={<Suzuki250 />} ></Route>
                     <Route path='/Suzuki/3' element={<Suzuki600 />} ></Route>
                     <Route path='/Suzuki/4' element={<Suzuki1000 />} ></Route>
                 </Routes>
-            </div>
+
+                <Routes>
+                    <Route path='/BMW/1' element={<G310R />} ></Route>
+                    <Route path='/BMW/2' element={<F900R />} ></Route>
+                    <Route path='/BMW/3' element={<S1000R />} ></Route>
+                </Routes>
+            </div>bmwData
             <footer className='flex items-center justify-center bg-purple-800 h-[5vh] text-white'>
                 <p>copyright {new Date().getFullYear()} by MJ.</p>
                 <a href="https://github.com/MUMEi-28/MotoSpecs-Explorer" target='blank' className='underline ml-2'>Github Repository</a>

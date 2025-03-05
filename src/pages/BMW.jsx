@@ -1,9 +1,10 @@
 import React from 'react'
+import BmwModelNavigation from '../components/BmwModelNavigation'
 
 export const BMW = () =>
 {
     return (
-        <div>BMW</div>
+        <BmwModelNavigation />
     )
 }
 
